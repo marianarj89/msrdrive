@@ -37,7 +37,7 @@ export default function Dashboard() {
           <h2 className="text-center mb-4">Perfil</h2>
           {error && <Alert variant="danger">{error}</Alert>}
           <strong>Email:</strong> {currentUser.email}
-          <Link to="/edit-profile" className="btn btn-primary w-100 mt-3">Editar Perfil</Link>
+          <Link to="/editar-perfil" className="btn btn-primary w-100 mt-3">Editar Perfil</Link>
         </Card.Body>
       </Card>
       <div className="w-100 text-center mt-2">

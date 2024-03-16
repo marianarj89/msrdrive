@@ -32,6 +32,9 @@ export default function Login() {
     <div>
       <Card>
         <Card.Body>
+        <div className="d-flex justify-content-center mb-4">
+        <img src="/logo.png" alt="Logo" style={{ maxWidth: '120px' }} />
+      </div>
           <h2 className="text-center mb-4">Acesse sua conta</h2>
           {/* {firebaseError && <Alert variant="danger">{firebaseError}</Alert>} */}
           {error && <Alert variant="danger">{error}</Alert>}
