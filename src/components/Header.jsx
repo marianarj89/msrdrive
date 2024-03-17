@@ -57,7 +57,7 @@ export default function Header() {
         </Navbar.Collapse>
         <div></div>
         <Button variant="primary" onClick={handleLogout}>
-          Logout
+        ❌ &nbsp; Sair &nbsp;
         </Button>
       </div>
     </Navbar>
