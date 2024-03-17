@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { Card, Button, Alert } from "react-bootstrap";
 import { useAuth } from "../contexts/AuthContext";
 import { Link, useNavigate } from 'react-router-dom';
+import Header from "./Header";
+import Footer from "./Footer";
 
 export default function Dashboard() {
   const [error, setError] = useState('');
@@ -32,6 +34,7 @@ export default function Dashboard() {
 
   return (
     <>
+      <Header />
       <Card>
         <Card.Body>
           <h2 className="text-center mb-4">Perfil</h2>
@@ -45,6 +48,7 @@ export default function Dashboard() {
           Log Out
         </Button>
       </div>
+      <Footer/>
     </>
   );
 }
