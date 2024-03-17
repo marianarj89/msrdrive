@@ -48,7 +48,8 @@ export default function Header() {
             <Nav.Link href="#" active>
               Home
             </Nav.Link>
-            <Nav.Link href="#">Novo Documento </Nav.Link>
+            <Nav.Link href="/editor">Editor de texto </Nav.Link>
+            <Nav.Link href="/novo-documento">Novo Documento </Nav.Link>
           </Nav>
           <Nav.Link href="#" style={{ color: "lightblue", padding: "10px" }}>
             {" "}
